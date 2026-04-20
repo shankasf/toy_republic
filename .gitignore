@@ -1,0 +1,33 @@
+# --- secrets ---
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# --- node / next ---
+node_modules/
+.next/
+out/
+*.tsbuildinfo
+tsconfig.tsbuildinfo
+
+# --- logs / os ---
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.DS_Store
+Thumbs.db
+
+# --- editor ---
+.vscode/
+.idea/
+
+# --- claude ---
+.claude/settings.local.json
+
+# --- build/scrape artifacts (kept local, not code) ---
+site/
+
+# --- transient ---
+image.png
